@@ -1,5 +1,5 @@
 {
-  "name": "moviessource",
+  "name": "mysql-source-kafka",
   "config": {
     "connector.class": "io.debezium.connector.mysql.MySqlConnector",
     "database.hostname": "34.142.141.164",

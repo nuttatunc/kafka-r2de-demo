@@ -1,5 +1,5 @@
 {
-    "name": "sink2",
+    "name": "mysql-sink-ksql",
     "config": {
       "connector.class": "io.confluent.connect.jdbc.JdbcSinkConnector",
       "task.max": "1",

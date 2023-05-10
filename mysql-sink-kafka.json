@@ -1,5 +1,5 @@
 {
-    "name": "sink",
+    "name": "mysql-sink-kafka",
     "config": {
       "connector.class": "io.confluent.connect.jdbc.JdbcSinkConnector",
       "task.max": "1",
