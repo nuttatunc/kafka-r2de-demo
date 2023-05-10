@@ -26,7 +26,7 @@ CREATE TABLE `movies`
 
 INSERT INTO movies (movie_id, title, release_year, country, genres, actors, directors, composers, screenwriters,
                     cinematographer, production_companies)
-VALUES (1, 'Once Upon a Time in the West', 1968, 'Italy', 'Western',
+VALUES (1, 'The Master', 1968, 'Italy', 'Western',
         'Claudia Cardinale|Charles Bronson|Henry Fonda|Gabriele Ferzetti|Frank Wolff|Al Mulock|Jason Robards|Woody Strode|Jack Elam|Lionel Stander|Paolo Stoppa|Keenan Wynn|Aldo Sambrell',
         'Sergio Leone', 'Ennio Morricone', 'Sergio Leone|Sergio Donati|Dario Argento|Bernardo Bertolucci',
         'Tonino Delli Colli', 'Paramount Pictures'),

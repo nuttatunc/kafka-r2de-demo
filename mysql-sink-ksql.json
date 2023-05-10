@@ -25,8 +25,6 @@
       "batch.size": "2",
       "table.name.format": "movies_title",
       "table.whitelist": "demo.movies_title",
-      "pk.mode": "record_value",
-      "pk.fields": "MOVIE_ID",
       "auto.create": "true",
       "auto.evolve": "true",
       "db.timezone": "Asia/Bangkok"
