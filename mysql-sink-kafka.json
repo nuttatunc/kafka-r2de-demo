@@ -25,7 +25,7 @@
       "batch.size": "2",
       "table.name.format": "movies",
       "table.whitelist": "demo.movies",
-      "pk.mode": "record_value",
+      "pk.mode": "record_key",
       "pk.fields": "movie_id",
       "auto.create": "true",
       "auto.evolve": "true",
