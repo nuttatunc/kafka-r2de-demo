@@ -1,0 +1,20 @@
+{
+  "name": "moviessource",
+  "config": {
+    "connector.class": "io.debezium.connector.mysql.MySqlConnector",
+    "database.hostname": "34.142.141.164",
+    "database.port": "3306",
+    "database.user": "root",
+    "database.password": "kafka-class-db-001",
+    "database.server.name": "kafka-class-db-001",
+    "table.whitelist": "demo.movies",
+    "database.history.kafka.bootstrap.servers": "broker:9092",
+    "database.history.kafka.topic": "movies",
+    "decimal.handling.mode": "double",
+    "include.schema.changes": "true",
+    "key.converter": "io.confluent.connect.avro.AvroConverter",
+    "value.converter": "io.confluent.connect.avro.AvroConverter",
+    "key.converter.schema.registry.url": "http://schema-registry:8081",
+    "value.converter.schema.registry.url": "http://schema-registry:8081"
+  }
+}
